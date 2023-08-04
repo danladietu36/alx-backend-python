@@ -3,7 +3,7 @@
 """
 
 
-def floor(n: float) ->int:
+def floor(n: float) -> int:
     """ Python function that takes float as
        argument and returns integer.
     """
