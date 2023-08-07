@@ -1,4 +1,4 @@
-i#!/usr/bin/env python3
+#!/usr/bin/env python3
 '''Task 1's module.
 '''
 import asyncio
