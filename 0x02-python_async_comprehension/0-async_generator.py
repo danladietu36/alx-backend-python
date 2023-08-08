@@ -11,7 +11,7 @@ import random
 from typing import Generator
 
 
-def async async_generator() -> Generator[float, None, None]:
+async def async_generator() -> Generator[float, None, None]:
     """ Function that iterate 10 times. """
     n = 0
     while n < 10:
