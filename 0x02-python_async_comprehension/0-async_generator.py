@@ -13,8 +13,6 @@ from typing import Generator
 
 async def async_generator() -> Generator[float, None, None]:
     """ Function that iterate 10 times. """
-    n = 0
-    while n < 10:
-        await asyncio.sleep(1)
+    for i in range(10):
+        await async.sleep(1)
         yield random.random() * 10
-        n += n
