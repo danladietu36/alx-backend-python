@@ -6,13 +6,14 @@
    between 0 and 10. Use the random module.
 """
 
+
 import asyncio
 import random
 from typing import Generator
 
 
 async def async_generator() -> Generator[float, None, None]:
-    """ Function that iterate 10 times. """
+    """Loop 10 times, wait 1 sec each time"""
     for i in range(10):
-        await async.sleep(1)
+        await asyncio.sleep(1)
         yield random.random() * 10
