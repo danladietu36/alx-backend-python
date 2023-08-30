@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-"""Generic utilities for github org client.
+#!/usr/bin/env python3
+"""Utilities for github org client.
 """
 import requests
 from functools import wraps
@@ -14,7 +14,7 @@ from typing import (
 __all__ = [
     "access_nested_map",
     "get_json",
-    "memorize",
+    "memoize",
 ]
 
 
